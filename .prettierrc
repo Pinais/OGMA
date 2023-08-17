@@ -1,0 +1,7 @@
+{
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "arrowParents": "always",
+    "bracketSameLine": false,
+    "singleAttributePerLine": true
+  }
