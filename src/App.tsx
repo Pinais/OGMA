@@ -1,21 +1,20 @@
-import React from 'react';
+import React from "react";
+import { ButtonInput, DefaultInput } from "./components/forms";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ButtonInput
+        formLabel="Titulo"
+        formInputType="text"
+        buttonText="Buscar no documento"
+        formHelp="Insira o título do seu documento"
+      ></ButtonInput>
+      <DefaultInput
+        formLabel="Titulo"
+        formInputType="text"
+        formHelp="Insira o título do seu documento"
+      ></DefaultInput>
     </div>
   );
 }
