@@ -4,6 +4,7 @@ export const styles = {
   textField: {
     marginTop: "0.5rem",
     marginBottom: "0.5rem",
+    marginLeft: "3rem",
   },
   labelText: {
     color: primaryColor.default,
@@ -12,6 +13,16 @@ export const styles = {
     marginTop: "0.5rem",
   },
   primaryButton: {
-    background-color: rgb(256,256,256),
+    marginLeft: ".5rem",
+    display: "inline-block",
+    "font-weight": 400,
+    color: "#ffffff",
+    "text-align": "center",
+    border: "1px solid transparent",
+    padding: "1rem .5rem",
+    "font-size": "1rem",
+    "line-height": 1.5,
+    "border-radius": ".25rem",
+    "background-color": primaryColor.default,
   },
 };
