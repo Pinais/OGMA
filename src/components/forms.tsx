@@ -50,6 +50,7 @@ export const ButtonInput: React.FC<InputProps> = ({
         style={styles.labelText}
       >
         {formLabel}
+        <button style={styles.primaryButton}>{buttonText}</button>
       </label>
       <br />
       <input
@@ -58,9 +59,6 @@ export const ButtonInput: React.FC<InputProps> = ({
         style={styles.textField}
       />
       <div>{formHelp}</div>
-      <div>
-        <button style={styles.labelText}>{buttonText}</button>
-      </div>
     </div>
   );
 };
