@@ -1,5 +1,6 @@
 import React from "react";
 import { styles } from "./styles/inputStyles";
+import reid from "./styles/input.module.css"
 
 export interface InputProps {
   formLabel: string;
@@ -29,7 +30,8 @@ export const DefaultInput: React.FC<InputProps> = ({
       <input
         type={formInputType}
         aria-describedby="formHelp"
-        style={styles.textField}
+        className={reid.textField}
+        //style={styles.textField}
       />
       <div>{formHelp}</div>
     </div>
@@ -56,7 +58,8 @@ export const ButtonInput: React.FC<InputProps> = ({
       <input
         type={formInputType}
         aria-describedby="formHelp"
-        style={styles.textField}
+        className={reid.textField}
+        //style={styles.textField}
       />
       <div>{formHelp}</div>
     </div>
